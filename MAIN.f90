@@ -56,7 +56,8 @@
       GAMSM = GAMA/GAMAM 
       GAMMH = GAMAM/2.D0 
 ! 
-      CALL GENMESH 
+      !CALL GENMESH 
+	  CALL READMESH
       CALL INIFLOW 
 ! 
       DO NPASS=1,NPASSM 
